@@ -55,18 +55,19 @@ body{
 }
 div{ 
     text-align: center;
-     border: 1px solid black; 
+     border: 1px solid black;
+     box-sizing: border-box; 
 }
 
 @media screen and (min-width:480px)and (max-width:960px){
     body {
-        width: 970px;
+        width: 960px;
         height: 768px;
     }
 }
 @media screen and (min-width:320px)and (max-width:480px){
     body {
-        width: 485px;
-        height: 800px;
+        width: 480px;
+        height: 767px;
     } 
 }
