@@ -98,13 +98,14 @@ div{
 }
 .efgh { 
    /* float: right; */
-    width: 25%;
+    width: 50%;
     height: 250px;
     line-height: 250px;
     background-color:#d6d4e0;
 }
 aside{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 
